@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción Form Php, JavaScript</title>
+    
+</head>
+<body>
+
+    <form action="probando.php" method="post" name="f1">
+        <fieldset>
+            <legend>Datos Personales:</legend>
+
+        Nombres:<br>
+        <input type="text" name="nombres" name="campo1"> <br><br>
+        Apellido: <br>
+        <input type="text" name="apellido"> <br><br>
+
+        Genero: <br><br>
+        <input type="radio" name="genero" value="masculino" checked> Masculino <br><br>
+        <input type="radio" name="genero" value="femenino"> Femenino <br><br>
+        
+        <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+
+    <style>
+        form{
+            fieldset{
+                border-color: blue;
+            }
+            legend{
+                text-align: center;
+                
+            }
+
+        }
+    </style>
+</body>
+</html>
